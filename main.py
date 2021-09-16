@@ -5,8 +5,12 @@ bot = commands.Bot(command_prefix='.')
 
 @bot.command()
 async def hello(ctx):
-    await ctx.reply('Helo Asu!')
+    await ctx.reply('Helo Gaes')
 
-Token = #Token ada di channel dev bot
+@bot.command()
+async def test(ctx):
+    await ctx.reply('Test tost')
 
-bot.run(Token)
+token = 'ODg4MDUxMjc2NDM5NTAyOTA4.YUNEMw.dy9Dq2BoeRRxILMrxWkQsOqNNVo'
+
+bot.run(token)
