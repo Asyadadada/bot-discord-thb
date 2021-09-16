@@ -11,6 +11,6 @@ async def hello(ctx):
 async def test(ctx):
     await ctx.reply('Test tost')
 
-token = 'ODg4MDUxMjc2NDM5NTAyOTA4.YUNEMw.dy9Dq2BoeRRxILMrxWkQsOqNNVo'
+token = '#adadidc
 
 bot.run(token)
