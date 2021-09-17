@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import kbbi as Kamus
 
-bot = commands.Bot(command_prefix='.')
+bot = commands.Bot(command_prefix='gxt!')
 
 def get_definisi(kata):
   try:
