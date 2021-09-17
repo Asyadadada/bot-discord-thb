@@ -6,7 +6,7 @@ bot = commands.Bot(command_prefix='.')
 
 def get_definisi(kata):
   try:
-    return f"```\n{kbbi.KBBI(kata).__str__(contoh=False)}```"
+    return f"```\n{Kamus.KBBI(kata).__str__(contoh=False)}```"
   except kbbi.kbbi.TidakDitemukan:
     return "```Maaf, entri tidak ditemukan.```"
 
